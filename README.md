@@ -11,5 +11,7 @@ Enagle and configure for server and buffers to enable nick completion to include
 /atcomplete buffers [list | add name | del name]
 ```
 
-servers name: %(irc_servers) (e.g. bitlbee / freenode / myircserver)
-buffers name: supports simple regex. (e.g. bitlbee.#* or bitlbee.#hc*)
+| Command | Argument | Details |
+| ------- | -------- | ----------- |
+| servers | name     | %(irc_servers) (e.g. bitlbee / freenode / myircserver) |
+| buffers | name     | supports simple regex. (e.g. bitlbee.#* or bitlbee.#hc*) |
